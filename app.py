@@ -19,7 +19,7 @@ def crear_peritaje():
 	datos = request.get_json()
 
 	nuevo_peritaje = {
-	 "placa": datos['placa'],
+	 "placa": datos['placa'].upper(),
  	 "fecha_registro": str(datetime.datetime.now())
 	}
 
