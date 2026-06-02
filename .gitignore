@@ -1,1 +1,7 @@
 venv/
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar base de datos de pruebas locales
+desarrollotest.sqlite3
