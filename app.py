@@ -41,7 +41,7 @@ def obtener_peritajes():
 
 @app.route('/api/inventario', methods=['GET'])
 def gestionar_inventario():
-    return {"status": "en desarrollo", "modulo": "inventario"}, 200
+	return {"status": "en desarrollo", "modulo": "inventario"}, 200
 
 
 if __name__ == "__main__":
